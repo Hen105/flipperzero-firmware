@@ -25,7 +25,7 @@ typedef void (*RpcSendBytesCallback)(void* context, uint8_t* bytes, size_t bytes
 typedef void (*RpcBufferIsEmptyCallback)(void* context);
 /** Callback to notify transport layer that close_session command
  * is received. Any other actions lays on transport layer.
- * No destruction or session close performed. */
+ * No destruction or session close preformed. */
 typedef void (*RpcSessionClosedCallback)(void* context);
 /** Callback to notify transport layer that session was closed
  * and all operations were finished */

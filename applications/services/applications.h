@@ -56,7 +56,7 @@ extern const size_t FLIPPER_DEBUG_APPS_COUNT;
 extern const FlipperApplication FLIPPER_SYSTEM_APPS[];
 extern const size_t FLIPPER_SYSTEM_APPS_COUNT;
 
-/* Separate scene app holder
+/* Seperate scene app holder
  * Spawned by loader
  */
 extern const FlipperApplication FLIPPER_SCENE;

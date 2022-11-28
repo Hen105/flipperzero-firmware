@@ -26,7 +26,7 @@ typedef struct {
     NotificationApp* notification;
     Storage* fs_api;
 
-    // view management
+    // view managment
     SceneManager* scene_manager;
     ViewDispatcher* view_dispatcher;
 

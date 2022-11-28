@@ -30,7 +30,7 @@ typedef struct {
     Widget* widget;
     NotificationApp* notifications;
 
-    // view management
+    // view managment
     SceneManager* scene_manager;
     ViewDispatcher* view_dispatcher;
 
